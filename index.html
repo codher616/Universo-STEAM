@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Universo STEAM</title>
+        <title>Web designing</title>
         <link rel="icon" href="images/icon.ico">
         <link rel="stylesheet" type="text/css" href="styles/index.css">
         <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Petit+Formal+Script&display=swap" rel="stylesheet">
         <meta charset="utf-8">
-        <meta name="keywords" content="">
-        <meta name="description" content="">
+        <meta name="keywords" content="html, css, web-designing">
+        <meta name="description" content="A web about web-designing">
         <meta name="author" content="Héctor">
         <meta name="copyright" content="">
         <meta name="robots" content="index">
@@ -19,60 +18,38 @@
 
     <body>
         <header class="header">
+            <nav class="nav">
+                <i class="fas fa-bars nav__icon"></i>
+                <div class="nav__container">
+                    <ul>
+                        <li class="nav__title"><h3>Menu</h3></li>
+                        <li class="nav__li"><a class="nav__a" href="#"><i class="fas fa-home nav__li-icons"></i>Home</a></li>
+                        <li><div class="nav__separadores"></div></li>
+                        <li class="nav__li"><a class="nav__a" href="html.html"><i class="fab fa-html5 nav__li-icons"></i>HTML</a></li>
+                        <li><div class="nav__separadores"></div></li>
+                        <li class="nav__li"><a class="nav__a" href="css.html"><i class="fab fa-css3-alt nav__li-icons"></i>CSS</a></li>
+                    </ul>
+                </div>
+            </nav>
+
             <div class="header__container-h1">
-                <h1 class="header__h1">Universo STEAM</h1>
+                <h1 class="header__h1">Web Designing</h1>
+                <div class="header__separador"></div>
+                <div class="header__h2-container"><h2 class="header__h2">Home</h2></div>
             </div>
-           <nav class="nav">
-               <ul class="nav__items-container">
-                   <li class="nav__items"><a class="nav__a" href=#>Proyecto</a></li>
-                   <div class="nav__separator"></div>
-                   <li class="nav__items"><a class="nav__a" href=#>Conócenos</a></li>
-               </ul>
-           </nav>
         </header>
 
         <main class="main">
-            <section class="main__section">
-                <div class="main__section-h4-container">
-                    <h4 class="main__section-h4">Descripción</h4>
-                </div>
-                <div class="main__section-text-container">
-                    <p class="main__section-text">Para poder ganar este videojuego se necesita finalizar con éxito pruebas de ciencia, tecnología, ingeniería, arte y matemáticas (STEAM). En cada una de las cinco pruebas aparecen mujeres relacionadas con esa disciplina. Se deben conseguir las 5 letras de la palabra STEAM  lo antes posible para ganar el juego, puesto que además de volver al presente, también es importante ser rápido si se desea alcanzar el primer puesto en la clasificación. <br><br> Las pruebas son de estilos muy diferentes, algunas consisten en responder a una serie de preguntas, en otras hay que investigar cómo llevar a cabo alguna prueba científica y también las hay de tipo arcade.
-                    </p>
-                </div>
-            </section>
-
-            <section class="main__section">
-                <div class="main__section-h4-container">
-                    <h4 class="main__section-h4">Motivación</h4>
-                </div>
-                <div class="main__section-text-container">
-                    <p class="main__section-text">Universo Steam es un videojuego creado para dar visibilidad a las mujeres que a lo largo de la historia realizaron contribuciones importantes en las áreas STEAM. En el mismo, aparece una mujer científica perdida en el espacio-tiempo por un problema en su máquina del tiempo. Para repararla y poder volver al presente, necesita unas piezas claves, que son cada una de las letras de la palabra STEAM.
-                    </p>
-                </div>
-            </section>
-
-            <section class="main__section">
-                <div class="main__section-h4-container">
-                    <h4 class="main__section-h4">Cómo se hizo</h4>
-                </div>
-                <div class="main__section-text-container">
-                    <p class="main__section-text">Para realizar el videojuego hemos necesitado diferentes herramientas, realizado investigaciones para conocer bien algunos personajes o algunos experimentos científicos como la PCR, y visualizar los "webinars" ofrecidos por la organización del concurso. <br><br> También nos hemos basado en hechos históricos como el incendio de la biblioteca de Alejandría y lo hemos relacionado con la gran matemática Hipatia de Alejandría. <br><br> La película "Figuras ocultas" nos ha servido de inspiración para la prueba de ingeniería. Tampoco queríamos olvidar la contribución de Ada Lovelace al mundo de la programación. <br><br> En el vídeo de presentación realizamos una adaptación de la técnica de presentación de un proyecto de emprendimiento "elevator pitch".
-                    </p>
-                </div>
-            </section>
-
-            <section class="main__section">
-                <div class="main__section-h4-container">
-                    <h4 class="main__section-h4">Herramientas utilizadas</h4>
-                </div>
-                <div class="main__section-text-container">
-                    <p class="main__section-text">Para crear los personajes y otro tipo de objetos hemos utilizado los editores de imagen "pixel" y "vectr". <br><br> La música la hemos compuesto  empleado la aplicación "soundmotion". <br><br> El video de presentación lo editamos con "Shotcut".  
-                    </p>
-                </div>
-            </section>
+            <div class="main__images-container">
+                <a class="main__html-image-container" href="html.html"><img src="images/html.png" class="main__html-image"></a>
+                <a class="main__css-image-container" href="css.html"><img src="images/css.png" class="main__css-image"></a>
+                <h3 class="main__html">HTML</h3>
+                <h3 class="main__css">CSS</h3>
+            </div>
         </main>
 
-        
+        <footer class="footer">
+            
+        </footer>
     </body>
 </html>
